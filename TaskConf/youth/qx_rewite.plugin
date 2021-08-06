@@ -1,14 +1,13 @@
-hostname = kd.youth.cn, ios.baertt.com
+hostname = kd.youth.cn, kandian.wkandian.com
 
-https:\/\/(ios\.baertt|kandian\.wkandian)\.com\/v17\/NewTaskIos\/getTaskList.json url script-request-header https://raw.githubusercontent.com/createnewdemo/Youth/main/youth.js
+https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
 
-https:\/\/(ios\.baertt|kandian\.wkandian)\.com\/v17\/article\/getHomePageList\.json url script-request-header https://raw.githubusercontent.com/createnewdemo/Youth/main/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
 
-https:\/\/(ios\.baertt|kandian\.wkandian)\.com\/v5\/user\/app_stay\.json url script-request-body https://raw.githubusercontent.com/createnewdemo/Youth/main/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
 
-https:\/\/(ios\.baertt|kandian\.wkandian)\.com\/v17\/NewTaskIos\/getTaskList\.json url script-request-body https://raw.githubusercontent.com/createnewdemo/Youth/main/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/task\/browse_start\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js
 
-https:\/\/kd\.youth\.cn\/webApi\/Nameless\/getTaskBrose url script-request-body https://raw.githubusercontent.com/createnewdemo/Youth/main/youth.js
+https:\/\/kandian\.wkandian\.com\/v5\/Nameless\/adlickstart\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js
 
-https:\/\/(ios\.baertt|kandian\.wkandian)\.com\/v6\/withdraw\/payMethodList\.json url script-request-body https://raw.githubusercontent.com/createnewdemo/Youth/main/youth.js
-
+https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
